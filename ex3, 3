@@ -1,0 +1,11 @@
+name=c('sedhu','naveen','TMS','ritheesh','jeeva','prem','yaswanth','rithick','susan','sai')
+score=c(10,14,11,12,18,15,19,13,19,11)
+attempts=c(1,2,1,1,3,1,3,2,1,1)
+qualify=c('yes','yes','yes','yes','no','no','no','no','no','no')
+print("orignal data frame:")
+df=data.frame(name, score, attempts, qualify)
+print(df)
+extract=df[,c("name")]
+extract
+extract=df[,c("name","qualify")]
+extract
